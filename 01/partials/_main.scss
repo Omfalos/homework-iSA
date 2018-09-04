@@ -1,0 +1,15 @@
+.error{
+    background: $errorColor;
+     color: white;
+ }
+ 
+ 
+ @for $i from 12 to 22 {
+     .paragrapth #{$i} {
+         font-size: $i;
+     }
+         .paragrapth--error #{$i} {
+            color: $errorColor;
+             font-size: $i;
+         }
+     }

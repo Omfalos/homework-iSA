@@ -1,0 +1,5 @@
+# Ignore folder named '.vscode' 
+.vscode/
+
+# Ignore file named 'style.css' 
+*.css
