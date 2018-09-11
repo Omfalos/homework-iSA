@@ -1,9 +1,18 @@
 .c-article {
-    &__header {}
+    &__header {
+    }
 
     &__image {}
 
-    &__lead {}
+    &__lead {
+        height: auto;
+        margin: 25px;
+        padding: 10px;
+    }
 
-    &__content {}
+    &__content {
+        height: auto;
+        margin: 25px;
+        padding: 10px;
+    }
 }
