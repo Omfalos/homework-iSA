@@ -1,1 +1,8 @@
-.c-sidebar {}
+.c-sidebar {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 70%;
+    background: $sidebarColor;
+}
