@@ -1,11 +1,13 @@
 .c-navigation {
     &__list {
         display: flex;
+        list-style-type: none;
     }
 
     &__items{}
 
     &__link {
         align-items: center;
+        text-decoration: none;
     }
 }

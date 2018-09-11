@@ -1,5 +1,9 @@
 .c-heading {
-    &--primary {}
+    &--primary {
+        color: $primaryColor;
+    }
 
-    &--secondary {}
+    &--secondary {
+        color: $secondaryColor;
+    }
 }
