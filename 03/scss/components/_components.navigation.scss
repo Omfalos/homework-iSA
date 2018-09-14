@@ -9,5 +9,11 @@
     &__link {
         align-items: center;
         text-decoration: none;
+        padding: 10px;
+    }
+    &__link:hover{
+        background: lightblue;
+        color: black;
+        border-radius: 15px;
     }
 }
