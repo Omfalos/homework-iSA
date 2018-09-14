@@ -1,9 +1,11 @@
 .c-heading {
     &--primary {
         color: $primaryColor;
+        font-size: 60px;
     }
 
     &--secondary {
         color: $secondaryColor;
+        font-size: 40px;
     }
 }

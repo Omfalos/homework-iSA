@@ -1,16 +1,33 @@
 .o-image {
-    &__pic {
+    &__headerpic {
         margin: auto;
         margin-left: 10px;
         padding: 0;
         width: 150px;
         height: 60px;
     }
-
-    &__desc {
+    &__headerdesc {
         margin: auto;
         margin-left: 10px;
         padding: 0;
+    }
+
+    &__articlepic{
+        margin: auto;
+        width: 95%;
+        height: 300px;
+        border-radius: 20px;
+    }
+    &__articledesc{
+        margin-bottom: 25px;
+    }
+
+    &__avatarpic{
+        width: 150px;
+        height: 150px;
+    }
+    &__avatardesc{
+        margin-bottom: 25px;
     }
 
     &--rounded {}
